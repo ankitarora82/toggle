@@ -1,0 +1,125 @@
+/* Applicable Industries Starts */
+.demo
+{
+    clear: both;
+    position: relative;
+    margin:0 0 0 0;
+    padding: 20px 0 0 0;
+    overflow: hidden;
+}
+h3{
+    font-family: 'Helvetica LT Condensed Medium';
+    font-size: 13px;
+    color: #d30a01;
+    text-transform: uppercase;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.js .demo
+{
+    visibility: hidden;
+}
+.expand
+{
+    clear: both;
+    margin: 0;
+    padding:0;
+}
+
+.collapse
+{
+    overflow: hidden;
+}
+.collapse p{
+    font-family: Arial;
+    font-size: 11px;
+    color: #575757;
+    padding: 10px 10px 10px 16px;
+    margin:0;
+}
+
+.switch
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial;
+    font-size: 11px;
+    color: #575757;
+}
+
+.post .switch
+{
+    position: static;
+}
+.post .main
+{
+    margin: 0;
+    padding: 0;
+}
+
+.switch a:link, .switch a:visited
+{
+    padding-right: 0;
+    background-image: none;
+    font-family: Arial;
+    font-size: 11px;
+    color: #cd0007;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.switch a:hover, .switch a:focus, .switch a:active
+{
+    background: url(../images/bg-red-dotted.jpg) repeat-x left bottom;
+}
+
+.post .switch a:hover, .post .switch a:focus, .post .switch a:active
+{
+    background: url(../images/bg-red-dotted.jpg) repeat-x left bottom;
+}
+
+.expand a
+{
+    display: block;
+}
+
+.expand a:link
+{
+    font-family: 'Helvetica LT Condensed Medium';
+    font-size: 13px;
+    color: #d30a01;
+    text-transform: uppercase;
+    display: block;
+    text-decoration:none;
+    padding: 3px 0 3px 15px;
+    background:url(../images/plus.gif) no-repeat 3px 7px;
+}
+.expand a:visited
+{
+    font-family: 'Helvetica LT Condensed Medium';
+    font-size: 13px;
+    color: #d30a01;
+    text-transform: uppercase;
+    display: block;
+    text-decoration:none;
+    padding: 3px 0 3px 15px;
+    background:#00ff06 url(../images/plus.gif) no-repeat 3px 7px;
+}
+.expand a:hover, .expand a:active, .expand a:focus
+{
+    color:#ffffff;
+    background: #cd0007 url(../images/minus1.gif) no-repeat  3px 7px;
+}
+.expand a:link.open
+{
+    color: #d30a01;
+    background:url(../images/minus.gif) no-repeat 3px 7px;
+}
+.expand a:link.open:hover
+{
+    color: #ffffff;
+    background:#cd0007 url(../images/plus1.gif) no-repeat 3px 7px;
+}
+/* Applicable Industries Starts */

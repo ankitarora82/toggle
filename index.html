@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Tab Expand Collapse All</title>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+   	<link rel="Stylesheet" type="text/css" href="css/EECSheet.css" media="all" />
+</head>
+<body>
+    <link href="css/expand.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="scripts/expand.js"></script>
+<script type="text/javascript">
+        $("html").addClass("js");
+        $(function () {
+            $("div.industries h3.expand").toggler();
+            $("#demo").expandAll({ trigger: "h3.expand", ref: "h3.expand", oneSwitch: false });
+            $("div.other").expandAll({
+                expTxt: "[Show]",
+                cllpsTxt: "[Hide]",
+                ref: "ul.collapse",
+                showMethod: "show",
+                hideMethod: "hide"
+            });
+            $("#outer div.post").expandAll({
+                expTxt: "[Read this entry]",
+                cllpsTxt: "[Hide this entry]",
+                ref: "div.collapse",
+                localLinks: "p.top a",
+                cllpsLength: 200
+            });
+            $("html").removeClass("js");
+        });
+
+    </script>
+
+               
+
+
+                                    <div id="demo" class="demo industries">
+                                        <div>
+                                            <div class="inner-brdr1">
+                                                <div class="inner-brdr2">
+                                                    <div class="expand-industries">
+                                                        <h3 class="expand">Ankit 1</h3>
+                                                        <div class="collapse shown">
+                                                            <p>Lorem Ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pad10top">
+                                            <div class="inner-brdr1">
+                                                <div class="inner-brdr2">
+                                                    <div class="expand-industries">
+                                                        <h3 class="expand">
+                                                            Ankit 222</h3>
+                                                        <div class="collapse">
+                                                            <p>Lorem Ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pad10top">
+                                            <div class="inner-brdr1">
+                                                <div class="inner-brdr2">
+                                                    <div class="expand-industries">
+                                                        <h3 class="expand">Ankit 333</h3>
+                                                        <div class="collapse">
+                                                            <p>Lorem Ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pad10top">
+                                            <div class="inner-brdr1">
+                                                <div class="inner-brdr2">
+                                                    <div class="expand-industries">
+                                                        <h3 class="expand">
+                                                            Ankit 444</h3>
+                                                        <div class="collapse">
+                                                            <p>Lorem Ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pad10top">
+                                            <div class="inner-brdr1">
+                                                <div class="inner-brdr2">
+                                                    <div class="expand-industries">
+                                                        <h3 class="expand">ankit 555</h3>
+                                                        <div class="collapse">
+                                                            <p>Lorem Ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+
+</body>
+</html>
